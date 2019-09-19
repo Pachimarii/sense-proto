@@ -7,6 +7,9 @@ a {
     text-decoration: none;
     color: #C00;
 }
+.main_body_background{
+    border: 10px;
+}
 body{
     overflow-x: hidden;
 }

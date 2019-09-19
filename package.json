@@ -1,0 +1,19 @@
+{
+  "name": "sense",
+  "version": "1.0.0",
+  "description": "Umd sense website",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pachimarii/sense-proto.git"
+  },
+  "author": "Boyan & ivy & Yunhan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pachimarii/sense-proto/issues"
+  },
+  "homepage": "https://github.com/Pachimarii/sense-proto#readme"
+}
