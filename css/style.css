@@ -3,6 +3,10 @@
     padding:0px;
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+    color: #C00;
+}
 body{
     overflow-x: hidden;
 }
@@ -155,4 +159,20 @@ nav{
     opacity: 0.9;
     background: url('/img/carousel/umd_mall.png');
     background-size: cover;
+}
+
+
+/* About section */
+#about {
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+.title{
+    text-align: center;
+    color:rgb(255, 204, 102);
+}
+.news_entry a{
+    font-size: 1.3em;
+    line-height: 1.3;
+
 }
