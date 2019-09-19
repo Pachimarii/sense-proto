@@ -3,7 +3,9 @@
     padding:0px;
     box-sizing: border-box;
 }
-
+body{
+    overflow-x: hidden;
+}
 nav{
     display: flex;
     justify-content: space-around;
@@ -39,6 +41,7 @@ nav{
     font-size: 13px;
 }
 .nav-links li a:hover {
+    color: rgb(201, 218, 208);
     text-shadow: 0 0 5px rgba(187, 180, 180, 0.726);
 }
 .burger{
@@ -47,11 +50,14 @@ nav{
 }
 
 .light .line1{
-    box-shadow: 0 0 5px rgba(17, 2, 2, 0.726);
+    background-color: rgb(201, 218, 208);
+    box-shadow: 0 0 5px rgba(187, 180, 180, 0.726);
 }
 .light .line2{
+    background-color: rgb(201, 218, 208);
     box-shadow: 0 0 5px rgba(187, 180, 180, 0.726);
 }.light .line3{
+    background-color: rgb(201, 218, 208);
     box-shadow: 0 0 5px rgba(187, 180, 180, 0.726);
 }
 .burger div{
@@ -69,9 +75,9 @@ nav{
     }
 }
 @media screen and (max-width:835px){
-    body{
-        overflow-x: hidden;
-    }
+    /* body{
+        
+    } */
     .navlinks {
         background-color: aqua;
         width: 40%;
@@ -136,14 +142,17 @@ nav{
   }
 
 .carousel-image-1{
+    opacity: 0.9;
     background: url('/img/carousel/nature.jpg');
     background-size: cover;
 }
 .carousel-image-2{
+    opacity: 0.9;
     background: url('/img/carousel/sunset.jpg');
     background-size: cover;
 }
 .carousel-image-3{
+    opacity: 0.9;
     background: url('/img/carousel/umd_mall.png');
     background-size: cover;
 }
