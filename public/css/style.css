@@ -1,24 +1,28 @@
 *{
+    font-family: 'Manjari', sans-serif;
     margin: 0px;
     padding:0px;
     box-sizing: border-box;
 }
 a {
     text-decoration: none;
-    color: #C00;
+    color: rgb(53, 146, 115);
 }
 .main_body_background{
     border: 10px;
 }
 body{
     overflow-x: hidden;
+    background-color: #3a4e45;
 }
+
+
+/* ---- nav bar styling ---- */
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
     min-height: 8vh;
-    font-family: 'Poppins', sans-serif;
     background-color: #495d5a;
     box-shadow: 0 2px 5px #374241af;
 }
@@ -74,6 +78,23 @@ nav{
     margin: 5px;
     transition: all 0.3s ease;
 }
+
+/* ---- paragraph styling ---- */
+.ttl{
+    color: rgba(223, 230, 228, 0.945);
+}
+.paragraph{
+    color: rgba(223, 230, 228, 0.945);
+}
+
+/* ---- card styling ---- */
+.ctitle{
+    color: #68aaa2;
+    font-size: 120%;
+}
+
+
+/* ======================> media queries <======================== */
 /* 1270 */
 
 @media screen and (max-width:1235px){
@@ -118,6 +139,9 @@ nav{
 
 }
 
+
+
+/* ======================> animations <======================== */
 @keyframes navLinkFade{
     from{
         opacity: 0;
@@ -150,17 +174,17 @@ nav{
 
 .carousel-image-1{
     opacity: 0.9;
-    background: url('/img/carousel/nature.jpg');
+    background: url('/public/img/carousel/nature.jpg');
     background-size: cover;
 }
 .carousel-image-2{
     opacity: 0.9;
-    background: url('/img/carousel/sunset.jpg');
+    background: url('/public/img/carousel/sunset.jpg');
     background-size: cover;
 }
 .carousel-image-3{
     opacity: 0.9;
-    background: url('/img/carousel/umd_mall.png');
+    background: url('/public/img/carousel/umd_mall.png');
     background-size: cover;
 }
 
@@ -169,10 +193,6 @@ nav{
 #about {
     margin-top:40px;
     margin-bottom: 40px;
-}
-.title{
-    text-align: center;
-    color:rgb(255, 204, 102);
 }
 .news_entry a{
     font-size: 1.3em;
