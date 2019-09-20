@@ -32,4 +32,24 @@ const navSlide = () => {
  
 }
 
+window.addEventListener('resize',function(){
+    if (screen.width<=1200) {
+        // console.log('its greater');
+        let elements = document.querySelectorAll('.col-lg-4');
+        for (i of elements){
+            i.classList.add('col-lg-6');
+            i.classList.remove('col-lg-4');
+        }
+    }else{
+        // console.log('its smaller');
+        let elements = document.querySelectorAll('.col-lg-6');
+        for (i of elements){
+            i.classList.add('col-lg-4');
+            i.classList.remove('col-lg-6');
+        }
+    }
+
+});
+    
+
 navSlide();

@@ -6,7 +6,7 @@
 }
 a {
     text-decoration: none;
-    color: rgb(53, 146, 115);
+    color: rgb(14, 88, 64);
 }
 .main_body_background{
     border: 10px;
@@ -60,6 +60,13 @@ nav{
     cursor: pointer;
 }
 
+.card{
+    margin-top: 7% !important; 
+    background-color: #b0c7c5bb;
+}
+.card-header{
+    background-color: #d6eceb7e !important;
+}
 .light .line1{
     background-color: rgb(201, 218, 208);
     box-shadow: 0 0 5px rgba(187, 180, 180, 0.726);
@@ -87,9 +94,12 @@ nav{
     color: rgba(223, 230, 228, 0.945);
 }
 
+#main_content p {
+    font-size: 97%;
+}
 /* ---- card styling ---- */
 .ctitle{
-    color: #68aaa2;
+    color: #1b8872;
     font-size: 120%;
 }
 
@@ -101,13 +111,20 @@ nav{
     .nav-links{
         width: 80%;
     }
+
+    /* .fb-page{
+        
+        
+    } */
 }
+
+
 @media screen and (max-width:835px){
     /* body{
         
     } */
     .navlinks {
-        background-color: aqua;
+        /* background-color: aqua; */
         width: 40%;
     }
     .nav-links{
