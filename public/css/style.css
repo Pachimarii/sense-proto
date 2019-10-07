@@ -36,7 +36,8 @@ nav{
     color:rgb(202, 196, 196);
     text-transform: uppercase;
     letter-spacing: 5px;
-    font-size: 20px;
+    font-size: 2em;
+    font-weight: bold;
 }
 
 .nav-links{
@@ -212,17 +213,17 @@ footer a{
 
 .carousel-image-1{
     opacity: 0.9;
-    background: url('/public/img/carousel/nature.jpg');
+    background: url('../img/carousel/nature.jpg');
     background-size: cover;
 }
 .carousel-image-2{
     opacity: 0.9;
-    background: url('/public/img/carousel/sunset.jpg');
+    background: url('../img/carousel/sunset.jpg');
     background-size: cover;
 }
 .carousel-image-3{
     opacity: 0.9;
-    background: url('/public/img/carousel/umd_mall.png');
+    background: url('../img/carousel/umd_mall.png');
     background-size: cover;
 }
 
@@ -277,11 +278,12 @@ footer a{
     font-family: 'Patua One', cursive;
     font-size: 150%;
     font-weight: 600;
-    color: #040f03d5;
-    background-color: rgba(255, 255, 255, 0.26);
+    color: #050f04d5;
+    background-color: rgba(255, 255, 255, 0.226);
     border-left-style: solid;
-    border-color: #2a3533;
-    padding: 4px 0px 4px 10px;
+    border-width: 6px;
+    border-color: #0d2b25;
+    padding: 8px 0px 8px 20px;
     
 }
 
@@ -291,6 +293,63 @@ footer a{
 }
 
 .aboutcontent{
-    font-size: 120%;
-    margin-left: 10px;
+    /* margin-left: 2vw; */
+    align-content: center;
+    padding: 0.3vw 0 0 4vw;
+    width: 67vw;
+    font-size: 130%;
+    /* margin-left: 10px; */
+    color: rgba(221, 212, 212, 0.781);
+    letter-spacing: .5px;
+    /* justify-content: center; */
 }
+
+.aboutcontent li{
+    margin-left: 2vw;
+    padding: .2vw 0 0 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+.aboutcontent p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+.aboutdiv1{
+    margin-top: 3vw;
+    display: inline-block;
+    width: 30vw;
+}
+
+.aboutdiv2{
+    animation: enter .7s ease-in;
+    display: inline-block;
+    width: 20vw;
+    position: relative;
+    bottom:3vw;
+    margin-bottom: 5vw;
+    margin-left: 5vw;
+}
+
+.aboutdiv1 h6{
+    font-family: 'Patua One', cursive;
+    margin-top: 1vh;
+    font-size: 2.3vh;
+    font-weight: lighter;
+    background-color: #2a353350;
+    border-left-style: double;
+    border-color: #7f9c94;
+    border-width: .5vw;
+    width: 27vw;
+    padding: .3vh 0 .3vh 1vw;
+}
+
+@keyframes enter {
+    0% {
+      opacity: 0;
+      transform: translatex(30rem); }
+    70% {
+        opacity:.5; }
+    100% {
+      opacity: 1;
+      transform: translatex(0); } }
