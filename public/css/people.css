@@ -35,4 +35,50 @@
     height: 15vw;
     object-fit: cover;
 }
+
+#Associate_Member .card-img-top {
+
+  height: 20vw;
+
+}
+
+.btn_team{
+  display:block;
+}
+
+.btn_team{
+  background-color: #ccc;
+  cursor:pointer;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  padding:10px;
+
+}
+
+.btn_team:hover{
+  background-color: #ffd520;
+}
+
+.people_img{
+  max-width:100%;
+}
+.container-fluid{
+  width:80%;
+  padding-bottom:20px;
+}
+
+.card-text, .card-title{
+  text-align: center;
+  font-size: 15px;
+}
+.card-body{
+  font-size: 13px;
+}
+
+
+
+
+
   

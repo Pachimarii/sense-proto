@@ -12,7 +12,7 @@
 
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/people.css">
-
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
     <link rel="icon" href="./img/sealwhite.png" type="image/png" sizes="16x16">
 </head>
 
@@ -38,26 +38,24 @@
         </div>
     </nav>
 
-    <div class="container-fluid" id="GroupPic">
-        <picture>
+    <div  id="GroupPic">
+        <!-- <picture>
             <source srcset="img/FFFFFF-0.png" media="(max-width: 810px)">
             <img class="card-img-top" id="umdLogo" srcset="./img/cmns_logo.png">
         </picture>
         <picture>
             <source srcset="img/FFFFFF-0.png" media="(max-width: 600px)">
             <img class="card-img-top" id="aoscLogo" srcset="./img/atmos_footer_droplet.png">
-        </picture>
-        <img class="card-img-top" src="./img/senseGroupNarrow.jpg">
+        </picture> -->
+        <img class="people_img" src="./img/senseGroupNarrow.jpg">
     </div>
     <!-- Meet the team -->
     <section id="people">
-        <h1><b>PEOPLE</b></h1>
-        <button class="collapsible" id="firstColl">
-            <h2><i class="fas fa-angle-down"></i> Team Members</h2>
-        </button>
-
+            <button class="btn_team" data-toggle="collapse" data-target="#cur_team">
+                    <h2><i class="fas fa-angle-down"></i> Team members</h2>
+           </button>
         <!-- Current team members -->
-        <div class="container">
+        <div class="container-fluid collapse" id ="cur_team">
             <!-- First row -->
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2 card-container d-flex align-items-stretch ">
@@ -424,16 +422,15 @@
 
             </div> <!-- End of row 3-->
         </div> <!-- End of container -->
-
-        <button class="collapsible">
-            <h2><i class="fas fa-angle-down"></i> Associate Member/Faculty Mentor</h2>
-        </button>
+        <button class="btn_team" data-toggle="collapse" data-target="#Associate_Member">
+                <h2><i class="fas fa-angle-down"></i> Associate Member/Faculty Mentor</h2>
+       </button>
         <!-- Associate Member -->
-        <div class="container">
+        <div class="container-fluid collapse" id="Associate_Member">
             <!-- First row -->
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4 card-container d-flex align-items-stretch">
-                    <div class="card-flip">
+                    <div class="card-flip ">
                         <!-- Card  Front -->
                         <div class="card front">
                             <img alt="img/alt.png" class="card-img-top" src="./img/people/faculty/Mary.jpg">
@@ -489,11 +486,11 @@
                     </div>
                 </div>
                 <div class="col-xs-12 col-sm-6col-md-4 col-lg-4 card-container d-flex align-items-stretch">
-                    <div class="card-flip">
+                    <div class="card-flip ">
                         <!-- Card  Front -->
                         <div class="card front">
                             <img alt="img/alt.png" class="card-img-top" src="./img/people/faculty/Ren.jpg">
-                            <div class="card-body">
+                            <div class="card-body ">
                                 <h5 class="card-title mb-0">Xinrong Ren</h5>
 
                             </div>
@@ -519,10 +516,10 @@
         </div>
 
         <!--Former members-->
-        <button class="collapsible">
-            <h2><i class="fas fa-angle-down"></i> Former Members</h2>
-        </button>
-        <div class="container">
+        <button class="btn_team" data-toggle="collapse" data-target="#former_Member">
+            <h2><i class="fas fa-angle-down"></i> Associate Member/Faculty Mentor</h2>  
+       </button>
+        <div class="container-fluid collapse" id ="former_Member">
             <!-- First row -->
             <div class="row">
                 <div class="col-xs-12 col-sm-4 col-md-3 col-lg-2 card-container d-flex align-items-stretch">
