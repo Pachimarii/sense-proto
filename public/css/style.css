@@ -22,11 +22,16 @@ body{
 
 
 /* ---- nav bar styling ---- */
+.navbar{
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+}
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 8vh;
+    min-height: 4vw;
     background-color: #1f473ef8;
     box-shadow: 0 2px 5px #374241af;
 }
@@ -263,7 +268,7 @@ footer a{
     /* letter-spacing: 1px; */
 }
 
-/* aboutpage styling */
+/* =================================== about page styling ==========================================*/
 .bg{
     box-shadow: 0 0 7px #242524b6;
     margin: auto;
@@ -322,7 +327,6 @@ footer a{
 }
 
 .aboutdiv2{
-    animation: enter .7s ease-in;
     display: inline-block;
     width: 20vw;
     position: relative;
@@ -330,7 +334,10 @@ footer a{
     margin-bottom: 5vw;
     margin-left: 5vw;
 }
-
+.hidden{opacity:0}
+.enter{
+    animation: enter .7s ease-in;
+}
 .aboutdiv1 h6{
     font-family: 'Patua One', cursive;
     margin-top: 1vh;
@@ -353,3 +360,17 @@ footer a{
     100% {
       opacity: 1;
       transform: translatex(0); } }
+
+
+/* =================================== news page styling ==========================================*/
+
+.newsNav{
+    display:inline-block;
+    width:10vw;
+}
+
+.recentNewsContents{
+    align-self: baseline;
+    display:inline-block;
+    width:30vw;
+}

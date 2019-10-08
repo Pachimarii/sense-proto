@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Pachimarii/sense-proto/issues"
   },
-  "homepage": "https://github.com/Pachimarii/sense-proto#readme"
+  "homepage": "https://github.com/Pachimarii/sense-proto#readme",
+  "dependencies": {
+    "scroll-watcher": "^1.3.1"
+  }
 }
