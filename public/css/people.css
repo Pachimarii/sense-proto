@@ -2,7 +2,30 @@
   
   /* Flip Cards CSS */
 
+  /* Main Image */
+
+  #GroupPic{
+    position: relative;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
   
+  #aoscLogo{
+    top: 20%;
+    right: 3%;
+    width: 40%;
+    position: absolute;
+  }
+  
+  #umdLogo{
+    top: 20%;
+    left: 6%;
+    width: 50%;
+    position: absolute;
+  }
+
+
+
   .card-flip {
     display: grid;
     grid-template: 1fr / 1fr;
@@ -64,7 +87,7 @@
 .people_img{
   max-width:100%;
 }
-.container-fluid{
+section > .container-fluid{
   width:80%;
   padding-bottom:20px;
 }

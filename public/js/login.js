@@ -1,3 +1,4 @@
+// This is used for login and sign up 
 console.clear();
 
 const loginBtn = document.getElementById('login');
