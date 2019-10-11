@@ -364,13 +364,51 @@ footer a{
 
 /* =================================== news page styling ==========================================*/
 
+/* section headers: "News", "Recent News" */
+.newsDivTtl{
+    padding: .2vw 0 0 .3vw;
+    font-weight: bold;
+    font-size:2vw;
+    padding-bottom: .4vw;
+    font-family: 'Merriweather', serif;
+}
+/* News navigation sections: */
 .newsNav{
+    background-color: #fafffe98;
     display:inline-block;
-    width:10vw;
+    width:13vw;
+    padding: .4vw .4vw .4vw .4vw;
+    margin: 0 1vw 0 1vw;
+
+}
+.newsNavSec h5{
+    padding-left: .7vw;
+    font-size: 1.2vw;
+    background-color: #5f9c91;
+}
+.newsNavSec ul{
+    padding-top: .2vw;
+}
+.newsNavSec li{
+    font-size: .9vw;
+    margin-left: 2vw;
+    padding: .2vw 0 .2vw 0;
+    list-style: disc;
+}
+/* news recent content section */
+.recentNewsContents{
+    /* background-color: #ccd3d2; */
+    align-self: baseline;
+    display: inline-block;
+    width: 57vw;
+    float: right;
+    margin-right: 1vw;
+    padding: .4vw 0 .4vw .7vw;
 }
 
-.recentNewsContents{
-    align-self: baseline;
-    display:inline-block;
-    width:30vw;
+.newsTtl a{
+    color: #d4dad8;
+    font-size: 1.3vw;
+    font-weight: bold;
 }
+
